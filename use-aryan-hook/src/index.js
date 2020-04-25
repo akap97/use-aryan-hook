@@ -1,0 +1,1 @@
+export { default as useAryanHook } from './useAryanHook';

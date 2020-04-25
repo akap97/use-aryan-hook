@@ -1,0 +1,38 @@
+{
+  "name": "use-aryan-hook",
+  "version": "1.0.1",
+  "description": "A React Hook to generate placecage.com placeholder image URLs",
+  "author": {
+    "name": "Aryan Kapoor",
+    "email": "pro.akapoor@gmail.com",
+    "url": "https://github.com/akap97"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "bump": "npm version",
+    "example": "cd example && yarn install && yarn package",
+    "prepublishOnly": "yarn build",
+    "watch": "nodemon --watch src --exec \"yarn build\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akap97/use-aryan-hook"
+  },
+  "bugs": {
+    "url": "https://github.com/akap97/issues"
+  }
+}
