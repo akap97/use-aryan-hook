@@ -8,7 +8,7 @@
 npm install use-aryan-hook
 
 ### To create your own hook
-* `git clone https://github.com/colbyfayock/use-custom-hook [directory]`
+* `git clone https://github.com/akap97/use-aryan-hook [directory]`
 * `cd [directory]`
 * `yarn install && yarn setup`
 * `cd [hook-name] && npm publish`
