@@ -9,11 +9,6 @@ link: https://use-aryan-hook.web.app/
 
 npm install use-aryan-hook
 
-### To create your own hook
-* `git clone https://github.com/akap97/use-aryan-hook [directory]`
-* `cd [directory]`
-* `yarn install && yarn setup`
-* `cd [hook-name] && npm publish`
 
 ### Set up a new repository
 * Clone the `useAryanhook` repo locally and navigate to the project
